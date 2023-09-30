@@ -1,6 +1,6 @@
 # NFT Minting and Whitelisting Dapp
 
-This is a decentralized application (Dapp) that allows you to create, mint, and whitelist non-fungible tokens (NFTs) on the Ethereum blockchain. NFTs are unique digital assets that can represent anything from art, music, games, collectibles, and more. With this Dapp, you can:
+This is a decentralized application (Dapp) that allows you to create, mint, and whitelist non-fungible tokens (NFTs) on the Ethereum blockchain. NFTs are unique digital assets that can represent anything from art, music, games, collectibles, and more. This Dapp was built alongside the sophomore track of LearnWeb3Dao. With this Dapp, you can:
 
 - Create your own NFTs with custom metadata and images
 - Mint your NFTs to the blockchain and receive an ERC-721 token
