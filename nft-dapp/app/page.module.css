@@ -15,21 +15,19 @@
   align-items: center;
 }
 
-.image {
-  width: 70%;
-  height: 50%;
-  margin-left: 20%;
-}
+
 
 .title {
   font-size: 2rem;
   margin: 2rem 0;
+  color: #8a0b0b
 }
 
 .description {
   line-height: 1;
   margin: 2rem 0;
   font-size: 1.2rem;
+  
 }
 
 .button {

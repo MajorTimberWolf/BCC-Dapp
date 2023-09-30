@@ -36,7 +36,7 @@ export default function Home() {
     const provider = await web3ModalRef.current.connect();
     const web3Provider = new providers.Web3Provider(provider);
 
-    // If user is not connected to the Rinkeby network, let them know and throw an error
+    // If user is not connected to the Sepolia network, let them know and throw an error
     const { chainId } = await web3Provider.getNetwork();
     if (chainId !== 'sepolia') {
       window.alert("Change the network to Sepolia");
@@ -167,7 +167,7 @@ export default function Home() {
     } else {
       return (
         <button onClick={connectWallet} className={styles.button}>
-          Connect your wallet
+          Connect your wallet using metamask.
         </button>
       );
     }
@@ -199,9 +199,10 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+          <h1 className={styles.title}>Welcome to NFT Whitelister</h1>
           <div className={styles.description}>
-            Its an NFT collection for developers in Crypto.
+            The Hub which allows you to whitelist and mint your favourite NFTs. 
+            Connect your wallet and hit the button to whitelist your address!
           </div>
           <div className={styles.description}>
             {numberOfWhitelisted} have already joined the Whitelist
@@ -212,7 +213,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Made by Abhinav
       </footer>
     </div>
   );
