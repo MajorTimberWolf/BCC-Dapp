@@ -23,18 +23,6 @@ The Dapp consists of two main components:
 - A smart contract written in Solidity that implements the ERC-721 standard for NFTs and adds a whitelist functionality
 - A web interface written in React and Next.js that allows users to interact with the smart contract.
 
-The smart contract has the following features:
-
-- It inherits from the OpenZeppelin ERC721 contract and adds a name and symbol for the token.
-- It has a mint function that takes a token URI as a parameter and mints a new NFT to the sender's address.
-- It has a whitelist function that takes an address and a boolean as parameters and adds or removes the address from the whitelist.
-- It overrides the transfer function to check if the sender and receiver are whitelisted before transferring the NFT.
-
-The web interface has the following features:
-
-- It uses Ethers.js to connect to the user's MetaMask wallet and get their account address.
-- It uses Hardhat to deploy the smart contract to a local or test network and get its address and ABI.
-- It has a button that calls the mint function of the smart contract.
 ## How to use it
 
 To use this Dapp, you need to have the following prerequisites:
