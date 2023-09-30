@@ -6,7 +6,7 @@ This is a decentralized application (Dapp) that allows you to create, mint, and 
 - Mint your NFTs to the blockchain and receive an ERC-721 token
 - Whitelist your NFTs to restrict who can buy or sell them
 - Transfer your NFTs to other users or marketplaces
-
+## To try it out, visit: https://bcc-dapp.vercel.app/
 ## How it works
 
 This Dapp uses the following technologies and tools:
